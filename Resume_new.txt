@@ -1,0 +1,201 @@
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Bhogadi}{Vidhey}{ \urlstyle{same}\href{https://github.com/Vidhey012}{github.com/Vidhey012} |  \href{https://vidheybhogadi2003.wixsite.com/website}{tinyurl.com/bvidhey}\\
+\href{tel:+917396104404}{\textbf{+91 7396104404}} | \href{mailto:vidhey.bhogadi2003@gmail.com}{vidhey.bhogadi2003@gmail.com}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{University College of\\ Engineering, Kakinada \\ (JNTUK)}
+\descript{B-Tech in Computer Science}
+\location{\textbullet{} May 2024 | CGPA - 8.65}
+\sectionsep
+
+\subsection{AANM \& VVRSR Polytechnic}
+\descript{Diploma in Computer Science}
+\location{\textbullet{} April 2021 | CGPA - 9.72}
+\sectionsep
+
+\subsection{Montessori High School}
+\location{\textbullet{} March 2018 | CGPA - 10.0}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+ \textbullet{} Portfolio:  \href{https://vidheybhogadi2003.wixsite.com/website}{\bf tinyurl.com/bvidhey} \\
+ \textbullet{} Github: \href{https://github.com/Vidhey012}{\bf Vidhey012} \\
+ \textbullet{} LinkedIn:  \href{https://www.linkedin.com/in/bhogadi-vidhey-aa62b71a8}{\bf bhogadi-vidhey-aa62b71a8} \\
+ \textbullet{} Gmail:  \href{mailto:vidhey.bhogadi2003@gmail.com}{\textbf{vidhey.bhogadi2003@gmail.com}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+
+\subsection{Undergraduate}
+ \textbullet{} Web Technologies \\
+ \textbullet{} Data Base Management Systems \\
+ \textbullet{} Operating Systems \\
+ \textbullet{} Object Oriented Programming \\
+ \textbullet{} Programming and Data structures \\
+ \textbullet{} System Administration in Unix\\
+ \textbullet{} Digital Electronics and Microprocessors \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\location{Over 5000 lines:}
+C \textbullet{}   Java \textbullet{} Python \textbullet{} HTML \textbullet{} CSS \\
+JavaScript \textbullet{} PHP \textbullet{} Bootstrap  \\ 
+\location{Over 1000 lines:}
+C++ \textbullet{} C\# \textbullet{} JQuery \textbullet{} MASM \textbullet{} TASM \\
+Prolog \textbullet{} Solidity\textbullet{} R \textbullet{} Type Script \\
+\sectionsep
+
+\subsection{Databases}
+SQL \textbullet{}   NoSQL \textbullet{} MySQL \textbullet{} PL/SQL \\
+PostgreSQL \textbullet{} MongoDB \textbullet{} Firebase \\ 
+\sectionsep
+
+\subsection{Frameworks \& Tools}
+Spring \textbullet{} Angular \textbullet{} React \textbullet{} Flask 
+CodeIgniter \textbullet{} GitHub \textbullet{}   Windows \\
+Netlify \textbullet{} Unix distributions
+\sectionsep
+
+\subsection{Familiar With}
+ Web Development  \textbullet{} Programming \\
+ Mobile App Development
+\sectionsep
+
+\subsection{Other Skills}
+Freelancing \textbullet{} Basket Ball \textbullet{} Craft Making
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{APSSDC}
+\descript{| Full Stack Web Development Intern in Java}
+\location{Oct 2020 – April 2021 | Remote | India }
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Developed a \textbf{Student-Portal} application that increased attendance tracking efficiency by 80\% and reduced administrative workload by 60\%, featuring five levels of abstraction: Admin view, Principal view, Department-Head view, Faculty view, and Student view. 
+\item \textbf{Technologies Employed:} Java, Spring-MVC, PostgreSQL database. 
+\end{tightemize}
+\sectionsep
+
+\runsubsection{APSCHE}
+\descript{| Full Stack Virtual Web Intern in Python }
+\location{Oct 2022 – Nov 2022 | Remote | India}
+\begin{tightemize}
+\item Developed an \textbf{E-Learning} platform used by 1000+ students and 50+ faculty members, resulting in a 40\% increase in course completion rates, featuring two levels of abstraction: Faculty view and Student view.
+\item \textbf{Technologies Employed:} Python, Flask, MySQL database. 
+\end{tightemize}
+\sectionsep
+
+\runsubsection{UCEK-JNTUK}
+\descript{| Full Stack Web Development Intern in PHP }
+\location{Jan 2023 – Present | Kakinada | India }
+\begin{tightemize}
+\item Maintained and updated the \textbf{jntucek.ac.in} website, resulting in a 50\% increase in site traffic and a 30\% reduction in bounce rate for our university.
+\item \textbf{Technologies Employed:} PHP, Code-Igniter, MySQL database. 
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{LVN E-Progress Website}
+\descript{| Freelance }
+\begin{tightemize}
+\item Developed a web application that streamlined student progress reporting, saving 2 hours per week for educators and improving communication among 500+ users.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Control Center Mobile Application}
+\descript{| Assignment }
+ \begin{tightemize}
+\item Designed and launched a mobile app for website management, increasing user engagement by 40\% and reducing response time to website issues by 50\%.
+\end{tightemize} 
+\sectionsep
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Achievements } 
+\descript{Academic }
+ \begin{tightemize}
+    \item Honored with Prathibha Puraskar for securing top marks in 10\textsuperscript{th} class.
+    \item Completed all 10 courses in Dakshin Bharath Hindi Prachar Sabha with a 95\% average score.
+    \item Internship certifications and virtual badges from Cisco, AWS, CCNA.
+    \item Served as the website administrator for our university for 2 years, overseeing 100+ updates and improvements resulting in a 60\% increase in user satisfaction.
+\end{tightemize} 
+
+\descript{Sports }
+ \begin{tightemize}
+    \item Achieved a certificate in state level chess competition.
+    \item Awarded a certificate of appreciation in Basket Ball.
+\end{tightemize} 
+
+\descript{Cultural }
+ \begin{tightemize}
+    \item Recognized with a certificate of appreciation from ITC.
+    \item Awarded a certificate of merit from ITRRODDD \& CASOF.
+\end{tightemize} 
+\sectionsep
+
+
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
