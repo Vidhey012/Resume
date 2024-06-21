@@ -13,7 +13,7 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Bhogadi}{Vidhey}{ \urlstyle{same}\href{https://github.com/Vidhey012}{github.com/Vidhey012} |  \href{https://vidheybhogadi2003.wixsite.com/website}{tinyurl.com/bvidhey}\\
+\namesection{Bhogadi}{Vidhey}{ \urlstyle{same}\href{https://github.com/Vidhey012}{github.com/Vidhey012} |  \href{https://vidhey.netlify.app/}{https://vidhey.netlify.app}\\
 \href{tel:+917396104404}{\textbf{+91 7396104404}} | \href{mailto:vidhey.bhogadi2003@gmail.com}{vidhey.bhogadi2003@gmail.com}
 }
 
@@ -50,7 +50,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Links} 
- \textbullet{} Portfolio:  \href{https://vidheybhogadi2003.wixsite.com/website}{\bf tinyurl.com/bvidhey} \\
+ \textbullet{} Portfolio:  \href{https://vidhey.netlify.app/}{\bf vidhey.netlify.app} \\
  \textbullet{} Github: \href{https://github.com/Vidhey012}{\bf Vidhey012} \\
  \textbullet{} LinkedIn:  \href{https://www.linkedin.com/in/bhogadi-vidhey-aa62b71a8}{\bf bhogadi-vidhey-aa62b71a8} \\
  \textbullet{} Gmail:  \href{mailto:vidhey.bhogadi2003@gmail.com}{\textbf{vidhey.bhogadi2003@gmail.com}}
