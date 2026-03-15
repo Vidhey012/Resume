@@ -1,0 +1,161 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage{lmodern}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-3pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-8pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-8pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-6pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Vidhey Bhogadi} \\ \vspace{1pt}
+    \small +91-7396104404 $|$
+    \href{mailto:vidhey.bhogadi2003@gmail.com}{\underline{vidhey.bhogadi2003@gmail.com}} $|$
+    \href{https://linkedin.com/in/bhogadi-vidhey-aa62b71a8}{\underline{linkedin.com/in/vidhey}} $|$
+    \href{https://github.com/Vidhey012}{\underline{github.com/Vidhey012}} $|$
+    \href{https://vidhey.netlify.app}{\underline{vidhey.netlify.app}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Professional Summary}
+\small{Results-driven SDET and Software Engineer with hands-on experience in Investment Banking (Wealth Management) and full-stack development. Specializing in architecting high-performance, maintainable test automation frameworks using Java, TypeScript, Playwright, and Cypress. Proven track record of delivering custom developer tools, including AI-powered Visual Studio Code extensions and JSON validators, resulting in a 30x increase in validation speed and a 45\% reduction in test creation time. Adept at embedding AI-driven workflows and CI/CD pipelines to accelerate software delivery and reduce manual effort across enterprise environments.}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Languages}{: Java (Core, Advanced, Swing), TypeScript, JavaScript, Python, C, SQL, PL/SQL} \\
+    \textbf{Test Automation}{: Selenium WebDriver, Playwright, Cypress, Cucumber (BDD), API \& UI Automation} \\
+    \textbf{Frameworks/Tools}{: Spring Boot, React, Node.js, VS Code Extension API, Chrome Extension API, Bit-bucket} \\
+    \textbf{AI Tools}{: GitHub Copilot, Morgan Stanley AI Assistant, Test Gen, Generative AI Agents, Playwright MCP Agents} \\
+    \textbf{Databases}{: PostgreSQL, MySQL, MongoDB, Firebase, Oracle PL/SQL}
+  }}
+\end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Systems Engineer -- SDET $|$ Client: Morgan Stanley (Wealth Management)}{November 2024 -- Present}
+    {Tata Consultancy Services (TCS)}{Bangalore, India}
+    \resumeItemListStart
+      \resumeItem{Spearheaded internal IDE and browser extensions incorporating Morgan Stanley AI and GitHub Copilot to automatically generate test frameworks and BDD scenarios, boosting overall test productivity by 45\%.}
+      \resumeItem{Architected a JSON Validator with a React-based UI for bulk data comparison and implemented graphical reporting with exportable results, accelerating validation tasks by 30x over manual processes.}
+      \resumeItem{Constructed a PDF Validator using Playwright for high-volume visual comparisons across 500+ documents per run, automating discrepancy detection and report generation to eliminate manual review effort.}
+      \resumeItem{Refined and maintained automation scripts for user interfaces and RESTful APIs using Java and Selenium WebDriver, improving execution efficiency by 40\% and reducing regression cycle time.}
+      \resumeItem{Merged automation suites into Bit-bucket and CI/CD pipelines with scheduled trigger configurations, reducing manual overhead by 30\% and enabling continuous quality assurance across releases.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Software Engineering Intern}{February 2024 -- April 2024}
+    {GalaxE Solutions, Inc.}{Bangalore, India}
+    \resumeItemListStart
+      \resumeItem{Built a Student Portal backend using Java, Spring-MVC, and PostgreSQL with RESTful APIs for attendance management, optimizing tracking efficiency by 80\% for 1,000+ active users.}
+      \resumeItem{Reduced manual administrative workload by 60\% by implementing role-based access control with three distinct permission tiers for administrators, faculty, and students.}
+      \resumeItem{Collaborated with cross-functional teams to gather requirements, design database schemas, and deliver a production-ready portal within a 10-week timeline.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+    {\textbf{BDD Automation Code Generator (VS Code Extension)} $|$ \emph{TypeScript, Test Gen AI, GitHub Copilot}}{2025}
+    \resumeItemListStart
+      \resumeItem{Launched a VS Code extension that prompted for a Jira ticket ID, invoked the Test Gen AI tool to retrieve user story requirements, and automatically generated structured BDD feature files, reducing test authoring time by 50\%.}
+      \resumeItem{Configured GitHub Copilot to analyze the Page Object Model (POM) architecture and map existing locators to fully functional step definition files, enabling engineers to onboard new test suites with minimal effort.}
+    \resumeItemListEnd
+  \resumeProjectHeading
+    {\textbf{AI-Powered X Path Locator (Chrome Extension)} $|$ \emph{JavaScript, DOM Crawling, Chrome APIs}}{2024}
+    \resumeItemListStart
+      \resumeItem{Engineered a Chrome extension with a custom DOM crawler to extract relative, absolute, and axis-based X Path locators by analyzing dynamic element attributes across single-page and multipage web applications.}
+      \resumeItem{Leveraged GitHub Copilot to cross-reference extracted locators against the project codebase, generating X Path results with 85\% accuracy and high resilience, substantially reducing test flakiness in Selenium suites.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {University College of Engineering, Kakinada}{Andhra Pradesh, India}
+    {Bachelor of Technology in Computer Science and Engineering; CGPA: 8.65}{December 2021 -- May 2024}
+\resumeSubHeadingListEnd
+
+%-----------AWARDS & CERTIFICATIONS-----------
+\section{Awards \& Certifications}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Awards}{: Xcelerate Warrior (3.33 T-Factor), On the Spot Team Award -- Morgan Stanley, TCS Artificial Intelligence Spark, Champion Level Training (2390+ points)} \\
+    \textbf{Certifications}{: Google Certified Generative AI Leader (Google), AWS Cloud Computing (Amazon), Selenium 4 (Udemy), Cisco Networking Essentials (Cisco)}
+  }}
+\end{itemize}
+
+\end{document}
