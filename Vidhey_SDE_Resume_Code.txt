@@ -1,0 +1,165 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage{lmodern}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.95in} 
+\addtolength{\textheight}{1.9in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{#1 \vspace{-3pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-8pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-8pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-6pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge\scshape Vidhey Bhogadi} \\ \vspace{2pt}
+    \small +91-7396104404 $|$
+    \href{mailto:vidhey.bhogadi2003@gmail.com}{\underline{vidhey.bhogadi2003@gmail.com}} $|$
+    \href{https://linkedin.com/in/bhogadi-vidhey-aa62b71a8}{\underline{linkedin.com/in/vidhey}} $|$
+    \href{https://github.com/Vidhey012}{\underline{github.com/Vidhey012}} $|$
+    \href{https://vidhey.netlify.app}{\underline{vidhey.netlify.app}} 
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Professional Summary}
+\small{Full-Stack Software Engineer with 1.5+ years of experience at Tata Consultancy Services (Morgan Stanley Wealth Management), delivering AI-powered developer tools, RESTful microservices, and production-grade web applications. Proficient in Java, Spring Boot, React, Node.js, and Python across the full development lifecycle. Brings a rare engineering edge: quality-first thinking from enterprise-scale systems, resulting in measurably fewer defects and faster delivery cycles.}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Software Engineer | Client: Morgan Stanley (Wealth Management)}{November 2024 -- Present}
+    {Tata Consultancy Services (TCS)}{Bangalore, India}
+    \resumeItemListStart
+      \resumeItem{Engineered an AI-powered VS Code extension integrating Morgan Stanley AI and GitHub Copilot to auto-generate BDD feature files from Jira tickets and map them to Page Object Models, cutting feature-to-code turnaround by 45\%.}
+      \resumeItem{Built a full-stack JSON Validator (React UI, Node.js backend) for bulk data comparison with exportable graphical reports, accelerating validation workflows by 30x over manual processes.}
+      \resumeItem{Programmed a document processing service using Node.js for automated visual comparison across 500+ documents per run, eliminating manual review via auto-generated discrepancy reports.}
+      \resumeItem{Architected RESTful API integrations and service layers in Java/Spring Boot, improving execution efficiency by 40\% through modular microservice components.}
+      \resumeItem{Integrated application suites into Bit-bucket CI/CD pipelines with automated build hooks, reducing manual deployment overhead by 30\% and enabling continuous delivery across releases.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Software Engineering Intern}{February 2024 -- April 2024}
+    {GalaxE Solutions, Inc.}{Bangalore, India}
+    \resumeItemListStart
+      \resumeItem{Built a full-stack Student Portal (Java, Spring-MVC, PostgreSQL) with RESTful APIs for attendance and grade management, supporting 1,000+ active users with an 80\% improvement in tracking efficiency.}
+      \resumeItem{Implemented JWT-based authentication with role-based access control across three permission tiers (admin, faculty, student), reducing manual administrative workload by 60\%.}
+      \resumeItem{Collaborated with cross-functional teams to gather requirements, design normalized database schemas, and ship a production-ready portal within a 10-week timeline.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+  \resumeProjectHeading
+    {\textbf{VS Code Extensions: JSON \& PDF Validators} $|$ \emph{TypeScript, JavaScript, Bootstrap, VS Code API}}{}
+    \resumeItemListStart
+      \resumeItem{Engineered a JSON Validator extension for bulk data validation, generating interactive HTML reports with built-in analytics and a responsive Bootstrap UI to accelerate debugging.}
+      \resumeItem{Constructed a PDF Validator extension featuring pixel-by-pixel comparison capabilities, automating visual testing and outputting dynamic, interactive discrepancy reports.}
+    \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{Steganography Image Generator} $|$ \emph{HTML5, CSS3, JavaScript, Cryptography}}{}
+    \resumeItemListStart
+      \resumeItem{Designed and deployed a secure steganography web application utilizing HTML5, CSS3, and JavaScript to seamlessly conceal encrypted messages within image files.}
+      \resumeItem{Implemented dual-layer encryption using Unicode binary and Morse code protocols, successfully facilitating 100+ secure message transactions via an intuitive user interface.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Languages}{: Java (Spring Boot, Spring-MVC), TypeScript, JavaScript, Python (Django, Flask), C, SQL, PL/SQL} \\
+    \textbf{Frontend}{: React, Next.js, HTML5, CSS3, CodeIgniter} \\
+    \textbf{Backend \& APIs}{: REST APIs, Microservices, GraphQL, WebSockets, JWT/OAuth2, Kafka, RabbitMQ, Node.js} \\
+    \textbf{Databases}{: PostgreSQL, MySQL, MongoDB, Redis, Firebase/Firestore, Oracle} \\
+    \textbf{Cloud \& DevOps}{: AWS (EC2, S3, Lambda), Docker, Kubernetes, CI/CD (GitHub Actions, Jenkins), Git/Bit-bucket} \\
+    \textbf{AI Tools}{: GitHub Copilot, Morgan Stanley AI Assistant, Generative AI Agents, VS Code Extension API}
+  }}
+\end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {University College of Engineering, Kakinada}{Andhra Pradesh, India}
+    {Bachelor of Technology in Computer Science and Engineering; CGPA: 8.65}{December 2021 -- May 2024}
+\resumeSubHeadingListEnd
+
+%-----------AWARDS \& CERTIFICATIONS-----------
+\section{Awards \& Certifications}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Awards}{: On the Spot Team Award -- Morgan Stanley, TCS Artificial Intelligence Spark, Xcelerate Warrior (3.33 T-Factor)} \\
+    \textbf{Certifications}{: Google Certified Generative AI Leader (Google), AWS Cloud Computing (Amazon), Cisco Networking Essentials (Cisco)}
+  }}
+\end{itemize}
+
+\end{document}
