@@ -26,7 +26,8 @@
 
 | File | Description |
 |:---|:---|
-| `Vidhey_SDE_Resume.pdf` | Latest resume — SDE / SDET / Backend roles |
+| `Vidhey_SDE_Resume.pdf` | Latest resume — SDE / Backend roles |
+| `Vidhey_SDET_Resume.pdf` | Latest resume — SDET / Automation roles |
 
 ---
 
